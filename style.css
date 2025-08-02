@@ -139,10 +139,17 @@ nav button{
     margin-top: 113px;
     margin-bottom: 23px;
     color: white;
-    font-weight: 500;
+    /* font-weight: 500; */
     z-index: 10;
-    font-size: 25px;
+    font-size: 39px;
+    font-weight: 700;
     margin-left: 153px;
+}
+.second-para{
+    /* margin: 42px; */
+    font-size: 39px;
+    font-weight: 700;
+
 }
 .film_img{
     display: flex;
@@ -180,6 +187,41 @@ nav button{
     width: 200px;
     margin: 0;
     padding: 0;
+}
+@media screen and (max-width:1200px){
+    .second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+    .hero > :nth-child(1){
+    font-size: 2.5rem;
+    font-weight: 700;
+    /* width: 60vw; */
+    margin-bottom: 1rem; 
+    text-align: center;
+    }
+    .first-para{
+        margin: 42px;
+        font-size: 39px;
+        font-weight: 700;
+        position: relative;
+    }
+    .second-para{
+    margin-top: 40px;
+    font-size: 39px;
+    font-weight: 700;
+    }
+    .third-para{
+        margin-bottom: -23px;
+        margin-left: 53px;
+        margin-top: 40px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
 }
 .second{
     width: 100vw;
@@ -269,6 +311,17 @@ nav button{
     margin-bottom: 23px;
     font-size: large;
 }
+@media screen and (max-width: 700px){
+    .fourth > div{
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        text-align: start;
+    }
+}
 .fourth{
     display: flex;
     justify-content: center;
@@ -286,6 +339,7 @@ nav button{
     width: 350px;
     margin-bottom: 25px;
 }
+
 .footer{
     color:red;
     text-align: end;
